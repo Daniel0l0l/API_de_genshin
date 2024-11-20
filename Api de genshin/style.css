@@ -1,0 +1,86 @@
+body{
+    background-image: url(IMAGENS/mona.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:120vw;
+}
+.content{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    background-color: rgba(0, 255, 255, 0.281);
+    width: 500px;
+    height: 500px;
+    border-radius: 40px;
+    border: solid 3px rgba(0, 255, 255, 0.836);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pesquisa{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+}
+#persoId{
+    width: 250px;
+    height: 30px;
+    border-radius: 20px;
+    border: solid 2px rgba(0, 255, 255, 0.836);
+    background-color:rgba(0, 102, 255, 0.363);
+    text-align: center;
+    font-size: medium;
+    color: white;
+}
+#persoId::placeholder{
+    color: white;
+}
+#botao{
+    width: 50%;
+    height: 30px;
+    border-radius: 20px;
+    font-size: medium;
+}
+.main{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: large;
+    color: white;
+}
+#name{
+    font-size: xx-large;
+}
+.infos{
+    width: 200px;
+}
+.visao{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.arma{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.regiao{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.raridade{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+#link{
+    color: white;
+}
